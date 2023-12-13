@@ -7,7 +7,7 @@ float(rate)
 if hours > 40: 
     difhours = hours - 40 
     mon = hours * rate
-    pay = rate*1.5*difhours + mon
+    pay = (rate*1.5)*difhours + mon
     print("O valor a ser pago é ", pay, "€")
 else:
     mon = hours * rate
