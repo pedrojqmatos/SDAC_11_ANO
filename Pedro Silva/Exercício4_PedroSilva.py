@@ -1,4 +1,3 @@
-
 hours = input("Enter Hours:")   #pergunta qual a quantidade horas
 rates = input("Enter Rate:")    #pergunta qual a quantidade de dinheiro por hora
 
@@ -24,4 +23,3 @@ if hour > 40:
 else:
     mon = hour * rate
     print("Vais receber:", mon)
-

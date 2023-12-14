@@ -1,4 +1,3 @@
-
 hours = input("Enter Hours:")   #pergunta qual a quantidade horas
 rates = input("Enter Rate:")    #pergunta qual a quantidade de dinheiro por hora
 hour = float(hours) 
