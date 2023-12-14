@@ -9,3 +9,5 @@ nhours = input("number of hours:")
 nrate = input("Rate amount:")
 ntotal = float(nhours) * float(nrate)
 print("ior amount is:", ntotal,)
+
+
