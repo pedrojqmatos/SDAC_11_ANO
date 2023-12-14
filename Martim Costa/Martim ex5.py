@@ -10,6 +10,4 @@ def computepay (hour,rate):
         payy=frate*fhour   
         return payy
 final=computepay(hour,rate)
-print(final)
-
-
+print("your payment is",final,"€")
