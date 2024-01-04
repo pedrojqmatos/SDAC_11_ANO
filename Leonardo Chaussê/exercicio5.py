@@ -5,7 +5,7 @@ fhour=float(hour)
 frate=float(rate)
 
 def computerpay (fhour)
-     if fhour == 
+     if fhour == 40
      
 if float(hour)>40:
     hourt=fhour*frate+(fhour-40)*1.5*frate
