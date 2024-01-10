@@ -12,3 +12,7 @@ if hour > 40:
 else:
     mon = hour * rate
     print("O valor a ser pago é ", mon, "€")
+
+#O "input" pergunta a quantidade de horas e de preço por hora,
+#se "hour" for maior que 40 faz a mutiplicação normal e pega nas horas extras
+#e mutiplicas po 1.5 se for menor que 40 faz a conta normalss
