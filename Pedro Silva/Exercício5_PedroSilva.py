@@ -8,8 +8,7 @@ def computepay(hour, rate):
         total = pay + mon
 
     else:
-        total = hour * rate
-    return total
+        return total
 
 hours = input("Enter Hours:")
 rates = input("Enter Rate:")    
