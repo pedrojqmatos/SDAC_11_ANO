@@ -14,4 +14,4 @@ if hour > 40:
 else:
     mon = hour * rate
     print("O valor a ser pago é ", mon, "€")
-#se for menor que 40 faz a conta normalss
+#se for menor que 40 faz a conta normal
