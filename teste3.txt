@@ -1,3 +1,0 @@
-hello world
-
-<di><title>Hello</title></di>

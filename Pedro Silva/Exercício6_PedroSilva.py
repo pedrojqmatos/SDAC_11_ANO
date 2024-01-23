@@ -1,7 +1,21 @@
-largest_so_far = -1
-print("before:", largest_so_far)
-for num in [3, 41, 12, 9, 74, 15]:
-    if num > largest_so_far:
-        largest_so_far = num
-    print(largest_so_far, num)
-print("after:", largest_so_far)
+count = 0
+total = 0.0
+
+while True:
+    number = input("Enter Number:")
+
+    if number == "done":
+        break
+    try: 
+        num = float(number)
+    except: 
+        print("Invalid input")
+        continue
+
+    count = count + 1
+    total = total + num 
+    media = total / count
+
+print("Finished counting number", total, count, media)
+#com o while true o input fica a perguntar em loop, quanto receber um done soma todos o valor começando pelo 0 daí a variaval total, se não for colocado um numero ira dar um mesagem
+#de erro ,tambem calculara a quantidade de numeros colocaste e tambem irá fazer a média dos numeros
