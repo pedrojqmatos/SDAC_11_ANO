@@ -6,9 +6,11 @@ def computepay(hour, rate):
         difhour = hour - 40
         pay = (rate*1.5) * difhour
         total = pay + mon
+    #se "hour" for maior que 40 faz a mutiplicação normal e pega nas horas extras e mutiplicas po 1.5
 
     else:
         return total
+    
 
 hours = input("Enter Hours:")
 rates = input("Enter Rate:")    
