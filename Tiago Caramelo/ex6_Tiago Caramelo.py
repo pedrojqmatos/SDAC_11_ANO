@@ -1,10 +1,21 @@
-found = False
-print ("Before:", found)
-
-for value in [9, 41, 12, 3, 74, 15] :
-
-    if value == 3 :
-
-        found = True    
-    print(found, value)
-print("After:", found)
+#Definir variáveis (contagem, total)
+total = 0.0
+contagem = 0
+#iniciar ciclo repetitivo
+while True:
+#iniciar o input
+    #pedir ao utilizador que meta um número para começar ou 'done'
+    entrada = input("Enter a number:" )
+    #caso o utilizador quiser terminar é so escrever um 'done'
+    if entrada == "done":
+        break
+    try:
+        number = float(entrada)
+    except ValueError:
+        print("Erro: Introduza um número válido.")
+        continue
+#Realizar as operaçoes
+    total = total + number
+    contagem = contagem + 1
+print ("Termina de contar os números", "Total:", total, "Contagem:" ,contagem, "Média:" ,total / contagem)
+        
