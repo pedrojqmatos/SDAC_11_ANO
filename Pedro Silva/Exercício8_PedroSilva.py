@@ -6,6 +6,6 @@ except:
     quit()
 #se o nome corresponder abre, se nao nao abre nada e fecha
 for line in fopen:
-    fup= line.upper()
+    fup = line.upper()
     #tranforma em maiusculas
     print(fup.rstrip())
