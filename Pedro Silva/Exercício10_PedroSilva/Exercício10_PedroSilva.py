@@ -1,19 +1,13 @@
-name = input('enter file:')
+file = input('enter file:')
 
-
-if name == ' ':
+try:
+    fopen = open(file)
+except:
     fopen = open('clown.txt')
-    counts = dict()
-    for line in fopen:
-        words = line.split()
+counts = dict()
+for line in fopen:
+    words = line.split()
     for word in words:
         counts[word] = counts.get(word, 0 )+1
+print(counts)
 
-elif name != ' ':
-    fopen = open(name, encoding='utf-8')
-    counts = dict()
-    for line in fopen:
-        words = line.split()
-    for word in words:
-        counts[word] = counts.get(word, 0 )+1
-print('The most common word is:', counts)
