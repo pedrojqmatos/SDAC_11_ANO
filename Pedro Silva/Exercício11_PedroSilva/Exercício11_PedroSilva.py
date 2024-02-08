@@ -1,6 +1,5 @@
 file = input('enter file:')
-if len(file) < 1:
-    file = 'clown.txt'
+if len(file) < 1: file = 'clown.txt'
 try:
     fopen = open(file)
 except:
@@ -19,7 +18,7 @@ for line in fopen:
 #cria uma lista onde iremos inserir os valores e em seguida transformar em tuple, organizava por value
 lista = list()
 for key, value in counts.items():
-    lista.append((value, key))
+    lista.append((key, value))
 lista = sorted(lista, reverse=True)
 
 #verifica os 5 mais comuns
