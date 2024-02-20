@@ -5,7 +5,7 @@ fopen = open(file)
 
 counts = dict()
 for line in fopen:
-    words = line.rstrip
+    words = line.rstrip()
     words = line.split()
     for word in words:
         counts[word] = counts.get(word, 0 ) + 1
