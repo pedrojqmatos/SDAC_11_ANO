@@ -1,10 +1,26 @@
-<restourante_1>
-    <name> Burguer King </name>
-    <local>Santarem</local>
-    <tipo_de_comida>Fast Food </tipo_de_comida>
-</restourante_1>
-<restourante_2>
-    <name>La Bella </name>
-    <local>Santarem </local>
-    <tipo_de_comida> Comida Italiana </tipo_de_comida>
- </restourante_2>
+
+<restaurantes>
+    <restaurante1>
+        <name> Burguer King </name>
+            <info>
+                <local>Santarem</local>
+                <tipo_de_comida>Fast Food </tipo_de_comida>
+            </info>
+            </restaurante1>
+
+    <restourante2>
+        <name>La Bella </name>
+            </info>
+                <local>Santarem </local>
+                <tipo_de_comida> Comida Italiana </tipo_de_comida>
+            </info>
+    </restaurante2>
+
+    <restaurante3>
+        <name>EL Mexicano </name>
+            <info>
+                <local>Santarem </local>
+                <tipo_de_comida>Comida Mexicana </tipo_de_comida>
+            </info>    
+    </restaurante3>
+</restaurantes>
