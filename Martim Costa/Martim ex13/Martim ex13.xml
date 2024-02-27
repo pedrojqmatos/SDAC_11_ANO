@@ -1,0 +1,20 @@
+<game_1>
+    <name>Warframe</name>
+            <info>
+                <type>Looter Shooter,RPG</type>
+                <hours_played>2.410h </hours_played>
+            </info>
+</game_1>
+<game_2>
+    <name>Counter-Striken </name>
+        <info> 
+            <type>First Person Shooter, Comptitive Shooter </type>
+            <hours_played> 1.363h </hours_played>
+        </info>
+<game_3>
+    <name>Dauntless</name>
+        <info>
+            <type> Action RPG, CO-OP </type>
+            <hours_played> 743h </hours_played>
+        </info>
+</game_3>
