@@ -1,0 +1,71 @@
+[
+    {
+        "Team" : "Read Bull",
+        "Manager" : "Christian Horner",
+        "Firt Pilot" : "Max Verstappen",
+        "Second Pilot" : "Sergio Perez"
+    },
+
+    {
+        "Team" : "Mercedes",
+        "Manager" : "Toto Wolff",
+        "Firt Pilot" : "Lewis Hamilton",
+        "Second Pilot" : "George Russell"
+    },
+
+    {
+        "Team" : "Ferrari",
+        "Manager" : "Frédéric Vasseur",
+        "Firt Pilot" : "Charles Leclerc",
+        "Second Pilot" : "Carlos Sainz"
+    },
+
+    {
+        "Team" : "McLaren",
+        "Manager" : "Andrea Stella",
+        "Firt Pilot" : "Lando Norris",
+        "Second Pilot" : "Oscar Piastri"
+    },
+
+    {
+        "Team" : "RB",
+        "Manager" : "Laurent Mekies",
+        "Firt Pilot" : "Yuki Tsunoda",
+        "Second Pilot" : "Daniel Ricciardo"
+    },
+
+    {
+        "Team" : "Kick Sauber",
+        "Manager" : "Alessandro Alunni Bravi",
+        "Firt Pilot" : "Valtteri Bottas",
+        "Second Pilot" : "Zhou Guanyu"
+    },
+
+    {
+        "Team" : "Haas",
+        "Manager" : "Ayao Komatsu",
+        "Firt Pilot" : "Kavin Magnussen",
+        "Second Pilot" : "Nico Hulkenberg"
+    },
+
+    {
+        "Team" : "Aston Martin",
+        "Manager" : "Mike Krack",
+        "Firt Pilot" : "Fernando Alonso",
+        "Second Pilot" : "Lance Stroll"
+    },
+
+    {
+        "Team" : "Alpine",
+        "Manager" : "Bruno Famin",
+        "Firt Pilot" : "Piere Gasly",
+        "Second Pilot" : "Esteban Ocon"
+    },
+
+    {
+        "Team" : "Willians Racing",
+        "Manager" : "James Vowles",
+        "Firt Pilot" : "Alexander Albon",
+        "Second Pilot" : "Logan Sargeant"
+    }
+]
