@@ -1,0 +1,91 @@
+import json
+data = '''[
+    {
+        "nome": "MrSavage",
+        "pais": "Noruega",
+        "servidor": "EU",
+        "earnings": "360.579"
+    },
+    {
+        "nome": "Endretta",
+        "pais": "Estados Unidos",
+        "servidor": "Noruega",
+        "earnings": "257.920"
+    },
+    {
+        "nome": "Mongraal",
+        "pais": "Reino Unido",
+        "servidor": "EU",
+        "earnings": "334.050"
+    },
+    {
+        "nome": "Vadeal",
+        "pais": "Alemanha",
+        "servidor": "EU",
+        "earnings": "500.115"
+    },
+    {
+        "nome": "Malibuca",
+        "pais": "Russia",
+        "servidor": "EU",
+        "earnings": "408.340"
+    },
+    {
+        "nome": "4zr",
+        "pais": "Suiça",
+        "servidor": "EU",
+        "earnings": "223.491"
+    },
+    {
+        "nome": "TaySon",
+        "pais": "Eslovénia",
+        "servidor": "EU",
+        "earnings": "1.115.994"
+    },
+    {
+        "nome": "Merstach",
+        "pais": "Letónia",
+        "servidor": "EU",
+        "earnings": "428.380"
+    },
+    {
+        "nome": "Seeyun",
+        "pais": "Brasil",
+        "servidor": "BR",
+        "earnings": "81.267"
+    },
+    {
+        "nome": "916Gon",
+        "pais": "Brasil",
+        "servidor": "BR",
+        "earnings": "19.600"
+    },
+    {
+        "nome": "Vic0",
+        "pais": "Áustria",
+        "servidor": "EU",
+        "earnings": "85.675"
+    },
+    {
+        "nome": "Pinq",
+        "pais": "Reino Unido",
+        "servidor": "EU",
+        "earnings": "224.782"
+    },
+    {
+        "nome": "K1nG",
+        "pais": "Brasil",
+        "servidor": "EU/BR",
+        "earnings": "238.990"
+    }
+]'''
+
+players = json.loads(data)
+
+print('Brand count:', data.count('nome'))
+
+for player in players:
+    print("Name:", player['nome'])
+    print("Pais:", player['pais'])
+    print("Servidor:", player['servidor'])
+    print("Earnings:", player['earnings'],'$\n')
