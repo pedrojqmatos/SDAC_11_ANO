@@ -6,7 +6,7 @@
             </info>
 </game_1>
 <game_2>
-    <name>Counter-Striken </name>
+    <name type=str> Counter-Strike </name>
         <info> 
             <type>First Person Shooter, Comptitive Shooter </type>
             <hours_played> 1.363h </hours_played>
