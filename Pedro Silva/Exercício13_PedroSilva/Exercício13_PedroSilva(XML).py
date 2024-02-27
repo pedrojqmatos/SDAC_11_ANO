@@ -51,7 +51,6 @@ code = '''<stand>
 
 bibli = ET.fromstring(code) #guarda a biblioteca da "code"
 XML = bibli.findall('models/brand') #ira procurar o "brand" que localiza-se no "models"
-print('User count:', len(XML)) #ira contar quantas vezes aparece "brand"
+print('Brand count:', len(XML)) #ira contar quantas vezes aparece "brand"
 #pergunta "value(brand)", "model" e "Fuel"
 for item in XML: print('Brand', item.get('value')) ; print('Model', item.find('model').text) ; print('Fuel', item.find('fuel').text) 
-#n percebi pq get no brad sendo que é texto, 
