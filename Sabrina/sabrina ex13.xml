@@ -1,0 +1,10 @@
+<restourante_1>
+    <name> Burguer King </name>
+    <local>Santarem</local>
+    <tipo_de_comida>Fast Food </tipo_de_comida>
+</restourante_1>
+<restourante_2>
+    <name>La Bella </name>
+    <local>Santarem </local>
+    <tipo_de_comida> Comida Italiana </tipo_de_comida>
+ </restourante_2>
