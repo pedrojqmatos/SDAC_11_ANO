@@ -3,8 +3,6 @@ nrate = input("Rate amount:")
 fhours = float(nhours)
 frate = float(nrate)
 
-computepay()
-
 if fhours > 40:
     reg = fhours * frate
     otp = (fhours - 40) * (frate * 1.5)

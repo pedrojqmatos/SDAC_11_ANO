@@ -1,9 +1,12 @@
 nhours = input("Number of hours:")
 nrate = input("Rate amount:")
-fhours = float(nhours)
-frate = float(nrate)
 
-computepay()
+try:
+    fhours = float(nhours)
+    frate = float(nrate)
+except:
+    print("Error! You provided an invalid value, please input a valid numeric input")
+    exit()
 
 if fhours > 40:
     reg = fhours * frate

@@ -1,11 +1,10 @@
 fname = input("Open the designated file: ")
 try :
-    fhand = open(fname.upper)
+    fhand = open(fname)
 except :
-    print("Invalid file ", fname, "name cannot be opened")
+    print("Invalid file name", fname, "cannot be opened")
     quit()
-print(fhand)
 
 for line in fhand:
     lrs = line.rstrip()
-    print(lrs.upper)
+    print(lrs.upper())
