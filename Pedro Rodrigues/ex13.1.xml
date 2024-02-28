@@ -1,0 +1,25 @@
+<series>
+    <series_categories>
+        <category name="Action">
+            <series_name>
+                <title>Breaking Bad</title>
+                <title>Game of Thrones</title>
+                <title>La Casa de Papel</title>
+            </series_name>
+        </category>
+        <category name="Comedy">
+            <series_name>
+                <title>The Office</title>
+                <title>Friends</title>
+                <title>Brooklyn Nine-Nine</title>
+            </series_name>
+        </category>
+        <category name="Drama">
+            <series_name>
+                <title>Stranger Things</title>
+                <title>The Crown</title>
+                <title>The Handmaid's Tale</title>
+            </series_name>
+        </category>
+    </series_categories>
+</series>

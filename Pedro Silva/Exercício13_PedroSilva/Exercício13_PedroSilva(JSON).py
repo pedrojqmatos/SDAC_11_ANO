@@ -45,5 +45,3 @@ JSON = json.loads(code) #guarda a biblioteca da "code"
 print('User count:', len(JSON)) #ira contar quantas vezes aparece "brand"
 #informação requerida
 for car in JSON: print("Brand:", car["brand"]) ; print("Model:", car["model"]) ; print("Fuel:", car["fuel"]["value"])
-#o for é pa loop, mas sem ele n devia dar o 1
-    

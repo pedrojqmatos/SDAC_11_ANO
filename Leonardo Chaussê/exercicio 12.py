@@ -3,6 +3,7 @@ import urllib.request, urllib.parse, urllib.error
 
 hinput = input('Enter url: ')
 fhand = urllib.request.urlopen(hinput)
+print(hinput)
 
 counts = dict()
 for line in fhand :

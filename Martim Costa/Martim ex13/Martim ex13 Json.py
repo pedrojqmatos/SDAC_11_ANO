@@ -1,3 +1,5 @@
+import json
+data = '''
 {                     
 "game_1":{             
     "name": "Warframe",
@@ -21,3 +23,7 @@
         }
 }
 }
+'''
+info = json.loads(data)
+print('Name:',info["game_3"]["name"])
+print('Tipo', info["game_3"]["inf"])
