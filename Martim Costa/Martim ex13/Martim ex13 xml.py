@@ -1,3 +1,5 @@
+import xml.etree.ElementTree as ET
+data = '''
 <games>
     <game>
         <name value ="Warframe">
@@ -24,3 +26,12 @@
         </name>
     </game>
 </games>
+'''
+tree = ET.fromstring(data)
+dtree = tree.findall("game/name")
+print('Games count', len(dtree))
+for item in dtree:
+    print("Game name:",item.get("value"))
+    print(item.find("info/genre").text, item.find("info/hours_played").text)
+
+
