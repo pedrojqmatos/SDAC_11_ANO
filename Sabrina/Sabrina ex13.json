@@ -1,4 +1,4 @@
-[{
+{
     "restaurante1":{
         "nomes": "Burguer King",
         "local": "santarem",
@@ -14,4 +14,4 @@
         "local":"santarem",
         "tipo de comida":"Comida Mexicana"
     }
-}]
+}

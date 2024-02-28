@@ -1,3 +1,6 @@
+import xml.etree.ElementTree as ET
+
+data =''' 
 <restaurantes>
     <restaurante>
         <name value ="Burguer King">
@@ -26,4 +29,11 @@
         </name>
     </restaurante>
 
-</restaurantes>
+</restaurantes> '''
+
+inf = ET.fromstring(data)
+dtree = inf.findall("restaurante/name")
+print('Numero de restaurantes:', len(dtree))
+for item in dtree:
+    print("nome dos restourantes:", item.get("value"))
+    print(item.find("info/local").text, item.find("info/tipo_de_comida").text)
