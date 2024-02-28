@@ -2,19 +2,11 @@
 #carácter dois pontos e, em seguida, utilize a função float para converter
 #a string extraída num número flutuante.
 
-data = "X-DSPAM-Confidence: 0.8475 "
-
-atpos = data.find(":")
-print(atpos)
-
-matpos=atpos + 1
-
-nmbr = data.find(" ", matpos)
-print(nmbr)
-
-data1 = nmbr.strip()
-print(data1)
-
-final = data[nmbr,data1]
-
-
+str = 'X-DSPAM-Confidence: 0.8475'
+cpos = str.find(':')
+print ('Colon position is : ', cpos)
+npos = str [cpos + 1 : ].strip()
+fvalue = float (npos)
+print ('Floating value is :', fvalue)
+sum = fvalue * 12
+print ('The sum result is', sum , 'The round value is', round(sum))
