@@ -1,4 +1,5 @@
-<filmes>
+import xml.etree.ElementTree as ET  
+input = '''<filmes>
     <filme>
         <titulo value = "Spider Man">
             <categoria type = "string">Super-Heróis</categoria>
@@ -24,4 +25,11 @@
             <categoria type = "string">Aventura</categoria>
         </titulo>    
     </filme>
-</filmes>
+</filmes>'''
+stuff = ET.fromstring (input)
+lst = stuff.findall('filme/titulo')
+print('Número de filmes', len(lst))
+for item in lst:
+  print ('titulo', item.get('value'))
+  print ('Categoria', item.find('categoria').text)
+    
