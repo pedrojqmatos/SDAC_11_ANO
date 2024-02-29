@@ -21,10 +21,6 @@ data = '''[
     "genero": {
       "type": "string",
       "value": "Drama"
-      }
-      "ano de lançamento:"{
-      "type:" "integrer"
-      "value" : 2001  
     }
   },
 
