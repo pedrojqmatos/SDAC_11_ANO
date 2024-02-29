@@ -102,7 +102,6 @@ json_data = '''
       "region": "Saudi Arabia",
       "conquist": "RLCS 2022-23 - Spring: MENA Regional 3 - Spring Invitational winners"
     }
-  }
 ]
 '''
 
