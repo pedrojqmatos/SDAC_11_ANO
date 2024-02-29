@@ -1,10 +1,10 @@
 {
-    "restourante_1":{
+    "restaurante1":{
         "nomes": "Burguer King",
         "local": "santarem",
         "tipo de comida":"Fast Food "
     },
-    "restourante_2":{
+    "restaurante_2":{
         "nomes":"La Bella",
         "local":"santarem",
         "tipo de comida":"Comida Italiana"
