@@ -1,8 +1,8 @@
 import json
 
 json_data = '''
-{
-  "teams": [
+[
+  "teams":
     {
       "value": "Vitality",
       "Coach": "Fairy Peak!",
@@ -102,8 +102,8 @@ json_data = '''
       "region": "Saudi Arabia",
       "conquist": "RLCS 2022-23 - Spring: MENA Regional 3 - Spring Invitational winners"
     }
-  ]
-}
+  }
+]
 '''
 
 # Charger les données JSON
