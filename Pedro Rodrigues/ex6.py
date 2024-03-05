@@ -1,3 +1,5 @@
+#ex6
+
 count = 0
 total = 0.0
 

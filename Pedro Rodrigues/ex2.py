@@ -1,4 +1,5 @@
-#resolução feita por mim
+#ex2
+
 horas = input ("Horas trabalhadas? ")
 valor = input("Valor bruto por hora? ")
 hrs =int(horas)

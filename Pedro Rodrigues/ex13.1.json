@@ -1,27 +1,25 @@
-{
-  "series": {
-      "series_categories": {
-        "Action": {
-          "series_name": [
-            "Breaking Bad",
-            "Game of Thrones",
-            "La Casa de Papel"
-          ]
-        },
-        "Comedy": {
-          "series_name": [
-            "The Office",
-            "Friends",
-            "Brooklyn Nine-Nine"
-          ]
-        },
-        "Drama": {
-          "series_name": [
-            "Stranger Things",
-            "The Crown",
-            "The Handmaid's Tale"
-          ]
-        }
+[
+    {
+      "jogador" : "Cristiano Ronaldo",
+      "modalidade": {
+        "type": "string",
+        "value": "Futebol"
+      }
+    },
+  
+    {
+      "jogador" : "Lebron James",
+      "modalidade": {
+        "type": "string",
+        "value": "Basquetebol"
+      }
+    },
+  
+    {
+      "jogador" : "Carlos Alcaraz",
+      "modalidade": {
+        "type": "string",
+        "value": "Ténis"
       }
     }
-}
+  ]
