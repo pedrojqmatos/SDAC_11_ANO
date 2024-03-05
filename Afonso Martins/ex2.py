@@ -1,5 +1,6 @@
-#gross pay program
-nhours = input("Number of hours:")
-nrate = input("Rate amount:")
-ntotal = float(nhours) * float(nrate)
-print("Your pay is:", ntotal)
+h= input ("work hours")
+r= input ("whats your rate")
+d= input
+p = int(h)*float(r)
+print ("your payment is:",p)
+
