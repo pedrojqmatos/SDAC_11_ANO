@@ -1,0 +1,24 @@
+<roupas>
+    <roupa>
+        <nome>Camisas</nome>
+        <categoria>Roupa </categoria>
+        <tamanho>M</tamanho>
+        <cor>Azul</cor>
+        <preco>20.00</preco>
+    </roupa>
+    <roupa>
+        <nome>Calcas Jeans</nome>
+        <categoria>Calcas</categoria>
+        <tamanho>32</tamanho>
+        <cor>Preto</cor>
+        <preco>35.00</preco>
+    </roupa>
+    <roupa>
+        <nome>casaco preto</nome>
+        <categoria>casaco </categoria>
+        <tamanho>xl</tamanho>
+        <cor>Vermelho</cor>
+        <preco>45.00</preco>
+    </roupa>
+</roupas>
+ 
