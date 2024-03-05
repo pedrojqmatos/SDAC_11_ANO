@@ -1,0 +1,29 @@
+<restaurantes>
+    <restaurante>
+        <name value ="Burguer King">
+            <info>
+                <local type="string">Santarem</local>
+                <tipo_de_comida>Fast Food</tipo_de_comida>
+            </info>
+        </name>
+    </restaurante>
+
+    <restaurante>
+        <name value ="La Bella">
+            <info>
+                <local type="string">Santarem</local>
+                <tipo_de_comida> Comida Italiana </tipo_de_comida>
+            </info>
+        </name>
+    </restaurante>
+
+    <restaurante>
+        <name value ="EL Mexicano ">
+            <info>
+                <local type= "string">Santarem</local>
+                <tipo_de_comida>Comida Mexicana </tipo_de_comida>
+            </info>
+        </name>
+    </restaurante>
+
+</restaurantes>

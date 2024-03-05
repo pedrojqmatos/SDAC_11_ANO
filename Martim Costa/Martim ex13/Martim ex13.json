@@ -1,0 +1,40 @@
+[
+{
+    "game": "warframe",
+    "genre": {
+        "type" : "string",
+        "value": "looter Shooter, RPG"
+    },
+    "hours-played": "2.4103h"
+}, 
+    
+{
+    "game": "Counter-stike",
+    "genre": {
+        "type" : "string",
+        "value": "First Person Shooter, competitive Shooter"
+    },
+    "hours-played": "1.363"
+}, 
+
+{
+"game": "Dauntless",
+"genre": {
+    "type" : "string",
+    "value": "Action RPG,CO-OP"
+},
+"hours-played": "743h"
+}, 
+
+{
+    "game": "Valorant",
+    "genre": {
+        "type" : "string",
+        "value": "First Person Shooter, competitive Shooter"
+    },
+    "hours-played": "743h"
+}
+]
+
+
+

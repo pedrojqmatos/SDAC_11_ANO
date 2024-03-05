@@ -1,0 +1,17 @@
+{
+    "restaurante1":{
+        "nomes": "Burguer King",
+        "local": "santarem",
+        "tipo de comida":"Fast Food "
+    },
+    "restaurante_2":{
+        "nomes":"La Bella",
+        "local":"santarem",
+        "tipo de comida":"Comida Italiana"
+    },
+    "restaurante_3":{
+        "name":"EL Mexicano",
+        "local":"santarem",
+        "tipo de comida":"Comida Mexicana"
+    }
+}
