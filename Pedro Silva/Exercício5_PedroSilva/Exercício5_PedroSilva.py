@@ -1,6 +1,6 @@
 
 def computepay(hour, rate):
-
+    print("Compute pay is: ", hours, rate)
     if hour > 40:
         mon = hour * rate 
         difhour = hour - 40
@@ -9,8 +9,10 @@ def computepay(hour, rate):
     #se "hour" for maior que 40 faz a mutiplicação normal e pega nas horas extras e mutiplicas po 1.5
 
     else:
-        return total
-    
+        total = hour * rate 
+        
+    print("Returning: ", total)
+    return total
 
 hours = input("Enter Hours:")
 rates = input("Enter Rate:")    
