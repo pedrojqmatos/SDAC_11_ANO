@@ -1,0 +1,77 @@
+
+[
+    {
+        "value": "nikeSB",
+        "style": "Skate shoes",
+        "sizenumber": "43",
+        "color": "yelow/gren",
+        "orders": "41",
+        "price": "450€",
+        "material": "canvas"
+    },
+    {
+        "value": "nike air max 97",
+        "style": "training shoes",
+        "sizenumber": "34",
+        "color": "black/wite",
+        "orders": "13",
+        "price": "250€",
+        "material": "mesh"
+    },
+    {
+        "value": "new balance",
+        "style": "all in 1",
+        "sizenumber": "46",
+        "color": "black/blue",
+        "orders": "23",
+        "price": "120€",
+        "material": "canvas"
+    },
+    {
+        "value": "nike",
+        "style": "air max",
+        "sizenumber": "42",
+        "color": "black/red",
+        "orders": "45",
+        "price": "150€",
+        "material": "leather"
+
+    },
+    {
+        "value": "adidas superstar",
+        "style": "classic",
+        "sizenumber": "38",
+        "color": "white/black",
+        "orders": "55",
+        "price": "120€",
+        "material": "leather"
+    },
+    {
+        "value": "converse chuck taylor",
+        "style": "high top",
+        "sizenumber": "40",
+        "color": "red",
+        "orders": "28",
+        "price": "80€",
+        "material": "canvas"
+    },
+    {
+        "value": "nike react element",
+        "style": "running shoes",
+        "sizenumber": "41",
+        "color": "blue/green",
+        "orders": "37",
+        "price": "160€",
+        "material": "mesh"
+    },
+    {
+        "value": "reebok classic",
+        "style": "retro",
+        "sizenumber": "43",
+        "color": "white/navy",
+        "orders": "20",
+        "price": "100€",
+        "material": "suede"
+    }
+]
+

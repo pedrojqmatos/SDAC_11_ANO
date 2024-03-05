@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 
-# Definir el XML
 data = '''
 <alimentos>
   <alimento>
@@ -56,10 +55,8 @@ data = '''
 </alimentos>
 '''
 
-# Parsear el XML
 dados = ET.fromstring(data)
 
-# Imprimir la información de los alimentos
 for alimento in dados.findall('alimento'):
     print("Nome:", alimento.find('nome').text)
     print("Tipo:", alimento.find('tipo').text)

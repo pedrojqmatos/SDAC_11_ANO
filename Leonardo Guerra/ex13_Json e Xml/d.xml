@@ -1,0 +1,16 @@
+<ETPR> 
+    <TGEI>
+        <Disciplina value = "Portugês">
+            <Professor type ="string"> Sergio Rodrigues </Professor>
+            <Modulos_feitos type="Int"> 4 </Modulos_feitos>
+        </Disciplina>
+        <Disciplina value="SDAC">
+            <Professor type="string"> Pedro Matos </Professor>
+            <Modulos_feitos type="Int"> 7 </Modulos_feitos>
+        </Disciplina>
+        <Disciplina value="IMEI">
+            <Professor type="string"> Carlos Silva </Professor>
+            <Modulos_Feitos type="Int"> 4 </Modulos_Feitos>
+        </Disciplina>
+    </TGEI>
+</ETPR>
