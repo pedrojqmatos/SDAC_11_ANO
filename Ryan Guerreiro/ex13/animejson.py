@@ -60,7 +60,7 @@ code = """[
 JSON = json.loads(code) 
 
 #ira contar quantas vezes aparece os animes
-print('Anime counter:', len(JSON))
+print('Anime counter:', len(JSON), '\n')
 
 
 #informação que será fornecida
