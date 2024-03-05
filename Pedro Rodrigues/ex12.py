@@ -1,3 +1,5 @@
+#ex12
+
 import urllib.request, urllib.parse, urllib.error
 inp = input('Enter url:')
 fhand = urllib.request.urlopen(inp)
