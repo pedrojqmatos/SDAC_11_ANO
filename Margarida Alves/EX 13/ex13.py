@@ -54,6 +54,6 @@ data = '''[
 info = json.loads(data)
 for item in info:
     print('nome', item ["nome"])
-    print('nome', item ["tamanho"]["value"])
-    print('nome', item ["preco"]["value"])
+    print('tamanho', item ["tamanho"]["value"])
+    print('preço', item ["preco"]["value"])
     

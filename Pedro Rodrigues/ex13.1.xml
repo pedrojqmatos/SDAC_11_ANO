@@ -1,25 +1,16 @@
-<series>
-    <series_categories>
-        <category name="Action">
-            <series_name>
-                <title>Breaking Bad</title>
-                <title>Game of Thrones</title>
-                <title>La Casa de Papel</title>
-            </series_name>
-        </category>
-        <category name="Comedy">
-            <series_name>
-                <title>The Office</title>
-                <title>Friends</title>
-                <title>Brooklyn Nine-Nine</title>
-            </series_name>
-        </category>
-        <category name="Drama">
-            <series_name>
-                <title>Stranger Things</title>
-                <title>The Crown</title>
-                <title>The Handmaid's Tale</title>
-            </series_name>
-        </category>
-    </series_categories>
-</series>
+<store>
+    <series>
+            <category value ="Action">
+                <series_name type = "string" >Breaking Bad</series_name>
+                <series_time type = "string" >54 horas</series_time>
+            </category>
+            <category value ="Comedy">
+                <series_name type = "string">The Office</series_name>
+                <series_time type = "string" >12 horas</series_time>
+            </category>
+            <category value ="Drama">
+                <series_name type = "string">Stranger Things</series_name>
+                <series_time type = "string" >45 horas</series_time>
+            </category>
+    </series>
+</store>

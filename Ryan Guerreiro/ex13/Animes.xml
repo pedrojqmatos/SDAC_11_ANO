@@ -1,0 +1,48 @@
+<main>
+    <animes>
+        <animename value ="Demon Slayer">
+            <original-name type="string">Kimetsu no Yaiba (鬼滅きめつの刃)</original-name>
+            <creation>
+                <year type="int">2019</year>
+                <creator type="string">Koyoharu Gotouge</creator>
+            <main-character type="string">Tanjiro Kamado</main-character>
+            <volumes type="int">23</volumes>
+            <episodes type="int">26</episodes>
+            <state type="string">finished</state>
+        </animename>
+
+        <a.name value ="Sorcerer Battle">
+            <original-name type="string">Jujutsu Kaisen (呪術廻戦)</original-name>
+            <creation>
+                <year type="int">2017</year>
+                <creator type="string">Gege Akutami</creator>
+            <main-character type="string">Yuji Itadori</main-character>
+            <volumes type="int">25</volumes>
+            <episodes type="int">47</episodes>
+            <state type="string">in progress</state>
+        </a.name>
+
+
+        <a.name value ="Attack on Tiran">
+            <original-name type="string">Shingeki no Kyojin (進撃の巨人)</original-name>
+            <creation>
+                <year type="int">2009</year>
+                <creator type="string">Hajime Isayama</creator>
+            <main-character type="string">Eren Yeager</main-character>
+            <volumes type="int">34</volumes>
+            <episodes type="int">88</episodes>
+            <state type="string">finished</state>
+        </a.name>
+
+        <a.name value ="Berserk">
+            <original-name type="string">Berserk (ベルセルク)</original-name>
+            <creation>
+                <year type="int">1989</year>
+                <creator type="string">Kentaro Miura</creator>
+            <main-character type="string">Guts</main-character>
+            <volumes type="int">42</volumes>
+            <episodes type="int">25</episodes>
+            <state type="string">in progress</state>
+        </a.name>
+    </animes>
+</main>

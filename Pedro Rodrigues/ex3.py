@@ -1,3 +1,5 @@
+#ex3
+
 nhours = input("Number of hours:")
 nrate = input("Rate amount:")
 fhours = float(nhours)
