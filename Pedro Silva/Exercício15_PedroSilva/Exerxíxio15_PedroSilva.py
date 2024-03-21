@@ -28,12 +28,3 @@ for row in cur.execute(strsql):
     print(str(row[0]), row[1])
 
 con.close()
-
-
-
-
-
-
-
-
-
