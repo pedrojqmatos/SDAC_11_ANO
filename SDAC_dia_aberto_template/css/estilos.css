@@ -1,0 +1,124 @@
+:root {
+    --regular: "IBM Plex Mono", monospace;
+}
+
+body {
+    max-width: 1600px;
+    margin: 2% 5% 0 5%;
+}
+
+h1 {
+    font-family: var(--regular);
+    font-size: 2.5rem;
+    color: white;
+}
+
+h2 {
+    font-family: var(--regular);
+    color: #5356FF;
+}
+
+h3 {
+    font-family: var(--regular);
+}
+
+.cnt-h {
+    text-align: center;
+}
+
+p {
+    font-family: var(--regular);
+    color: #222831;
+}
+
+
+ul {
+    font-family: var(--regular);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+#hero-section {
+    width: auto;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgba(34, 40, 49, 0.80), rgba(83, 86, 255, 0.80)), url("https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.hero-description {
+    padding: 5rem;
+}
+
+.hero-btn {
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #1E1E1E;
+    color: white;
+    font-family: var(--regular);
+}
+
+#l-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem; 
+}
+
+#about-us-section {
+    padding-bottom: 15rem;
+}
+
+#carrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 210px;
+    background-color: #E7E7E7;
+    border-radius: 10px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 430px;
+    height: 335px;
+    background-color: #E7E7E7;
+    border-radius: 30px;
+}
+
+a {
+    font-family: var(--regular);
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: #5356FF;
+}
