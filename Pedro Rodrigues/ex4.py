@@ -1,3 +1,5 @@
+#ex4
+
 nhours = input("Number of hours:")
 nrate = input("Rate amount:")
 

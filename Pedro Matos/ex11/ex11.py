@@ -12,7 +12,8 @@ for line in handle :
    
 temp = list()
 for k, v in new_dictionary.items() :
-    temp.append((v,k))
+    newtup = (v,k)
+    temp.append(newtup)
     
 temp = sorted(temp, reverse=True)
 

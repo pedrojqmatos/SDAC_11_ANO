@@ -82,10 +82,10 @@ data = '''[
 
 players = json.loads(data)
 
-print('Brand count:', data.count('nome'))
+print('Players count:', data.count('nome'),'\n')
 
 for player in players:
     print("Name:", player['nome'])
-    print("Pais:", player['pais'])
-    print("Servidor:", player['servidor'])
+    print("Country:", player['pais'])
+    print("Server:", player['servidor'])
     print("Earnings:", player['earnings'],'$\n')
