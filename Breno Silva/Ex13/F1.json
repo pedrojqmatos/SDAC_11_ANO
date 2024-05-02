@@ -1,0 +1,43 @@
+[
+{
+    "Pilot" : "Max Verstappen",
+    "Number" : "1",
+    "Team" : "Red Bull",
+    "World champion" : "3"
+} , 
+
+{
+    "Pilot" : "Checo Perez",
+    "Number" : "11",
+    "Team" : "Red Bull",
+    "World champion" : "0"
+} , 
+
+{
+    "Pilot" : "Lewis Hamilton",
+    "Number" : "44",
+    "Team" : "Mercedes",
+    "World champion" : "7"
+} ,
+
+{
+    "Pilot" : "George Russel",
+    "Number" : "63",
+    "Team" : "Mercedes",
+    "World champion" : "0"
+} , 
+
+{
+    "Pilot" : "Charles Leclerc",
+    "Number" : "16",
+    "Team" : "Ferrari",
+    "World champion" : "0" 
+} ,
+
+{
+    "Pilot" : "Carlos Sainz",
+    "Number" : "55",
+    "Team" : "Ferrari",
+    "World champion" : "0"
+}
+]

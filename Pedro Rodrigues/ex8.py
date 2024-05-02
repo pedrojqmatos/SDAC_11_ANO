@@ -1,3 +1,5 @@
+#ex8
+
 fname = input("Open the designated file: ")
 try :
     fhand = open(fname)
