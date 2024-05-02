@@ -1,0 +1,24 @@
+<stand>
+    <shoes>
+        <name value= "nikeSB">
+            <style type = "string" >Skate shoes</style>
+            <sizenumber type="int">43</sizenumber>
+            <orders type="int">41</orders>
+            <price type="string">450€</price>
+        </name>
+    
+        <name value = "nike air max 97">
+            <style type = "string" >training shoes</style>
+            <sizenumber type="int">34</sizenumber>
+            <orders type="int">13</orders>
+            <price type="string">250€</price>
+        </name>
+    
+        <name value ="new balance">
+            <style type = "string" >all in 1</style>
+            <sizenumber type="int">46</sizenumber>
+            <orders type="int">23</orders>
+            <price type="string">120€</price>
+        </name>
+    </shoes>
+</stand>
