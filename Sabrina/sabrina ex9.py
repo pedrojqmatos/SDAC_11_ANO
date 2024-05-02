@@ -1,14 +1,8 @@
-fix = input("open the designated file: ")
+fopen = open('mbox-short.txt')
 
-try:
-    ffix = open(fix)
-except:
-
-    print("invalid file name",fix,"cannot be opened")
-    quit()
-
-for line in ffix:
-
-    llrs = line.rstrip()
-    print(line.upper())
-    
+for line in fopen :
+    line = line.rstrip()
+    words = line.split()
+    if words[0] != 'From' :
+        continue
+    print(words[2])
