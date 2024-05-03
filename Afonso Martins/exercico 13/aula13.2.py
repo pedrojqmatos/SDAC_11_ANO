@@ -64,3 +64,5 @@ for item in root.findall('item'):
     print("Cor:", item.find('cor/value').text)
     print("Preço:", item.find('preco/value').text)
     print("\n")
+  #\n para deixar os espacos
+#.text para deixar em texto 
